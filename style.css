@@ -71,12 +71,12 @@ header a:hover{
 }
 /*showcase*/
 #showcase{
-    min-height:350px;
-    background: url('img/photo-1547658719-da2b51169166.avif');
+    min-height: 350px;
+    background: url('img/computer-\ origingal.png')no-repeat 0 -400px;
     text-align: center;
     color:#ffffff;
 }
-#showcae{
+#showcase{
     font-size: 45px;
 }
 #showcase p {
@@ -114,6 +114,11 @@ header a:hover{
     width: 80px;
 }
 /*sidebar*/
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
 aside#sidebar .quote input, aside#sidebar .quote textarea{
     width: 90%;
     padding: 5px;
@@ -121,7 +126,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /*main-col*/
 article#main-col{
     float: left;
-    width:65%
+    width:65%;
 }
 /*service*/
 ul#services li{
@@ -166,4 +171,5 @@ header{
 }
 #newsletter form input[type="email"], .quote input, .quote textarea{
     width: 100%;
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
+}
